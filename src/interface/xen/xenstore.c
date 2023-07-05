@@ -34,6 +34,9 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #include <ipxe/xen.h>
 #include <ipxe/xenevent.h>
 #include <ipxe/xenstore.h>
+#include <ipxe/init.h>
+#include <ipxe/settings.h>
+#include <ipxe/netdevice.h>
 
 /*
  * xs_wire.h attempts to define a static error table xsd_errors, which

@@ -14,6 +14,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #define	PCI_SETTINGS	/* PCI device settings */
 //#define	CPUID_SETTINGS	/* CPUID settings */
 //#define	MEMMAP_SETTINGS	/* Memory map settings */
+#define	XEN_SETTINGS	/* Xen XenStore settings */
 //#define	VMWARE_SETTINGS	/* VMware GuestInfo settings */
 //#define	VRAM_SETTINGS	/* Video RAM dump settings */
 //#define	ACPI_SETTINGS	/* ACPI settings */
