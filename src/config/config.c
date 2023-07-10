@@ -331,6 +331,9 @@ REQUIRE_OBJECT ( pci_settings );
 #ifdef VMWARE_SETTINGS
 REQUIRE_OBJECT ( guestinfo );
 #endif
+#ifdef XEN_SETTINGS
+REQUIRE_OBJECT ( xenstore );
+#endif
 #ifdef CPUID_SETTINGS
 REQUIRE_OBJECT ( cpuid_settings );
 #endif
